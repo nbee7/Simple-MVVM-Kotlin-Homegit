@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">homeGit</string>
+    <string name="data_empty">data tidak ada</string>
+</resources>
