@@ -21,6 +21,8 @@ class MainViewModel : ViewModel() {
         repository = UserRepository.getInstance(context)
     }
 
+    //Sebaiknya hal-hal penting seperti api key, token, dsb. yang berbentuk konstan
+    //bisa ditaruh di build.gradle (Project)
     private val token = "token " + Const.TOKEN
 
     fun followingUser() {

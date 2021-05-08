@@ -15,6 +15,15 @@ import com.example.homegit.util.visible
 class MainActivity : AppCompatActivity() {
     private lateinit var mainViewModel: MainViewModel
     private lateinit var userAdapter: UserAdapter
+    /*Jika menggunakan ViewBinding usahakan menggunakan nullable seperti ini
+    var binding: ActivityMainBinding? = null
+
+    Dan meng-null-kan kembali pada saat activity atau fragment di hancurkan
+    override fun onDestroy(){
+        binding = null
+    }
+
+    Untuk menghindari memory leak*/
     private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {

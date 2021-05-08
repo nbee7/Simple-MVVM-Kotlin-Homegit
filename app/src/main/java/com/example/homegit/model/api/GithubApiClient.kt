@@ -8,7 +8,7 @@ import retrofit2.http.Path
 
 
 interface GithubApiClient {
-    @GET("  users")
+    @GET("  users") //Spasinya hilangkan
     fun getFollowings(
             @Header("Authorization") token: String
     ): Call<List<UserResponse>>

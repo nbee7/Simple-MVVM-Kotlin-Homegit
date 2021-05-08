@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 
+//Jika kelas ini tidak digunakan sebaiknya dihapus
 abstract class BaseAdapter<T>(private val layoutId: Int) :
     RecyclerView.Adapter<BaseAdapter.BaseViewHolder>() {
 

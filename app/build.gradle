@@ -15,6 +15,8 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        //Taruh disini
+        //buildConfigField("String","TOKEN", "\"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\"")
     }
 
     buildTypes {

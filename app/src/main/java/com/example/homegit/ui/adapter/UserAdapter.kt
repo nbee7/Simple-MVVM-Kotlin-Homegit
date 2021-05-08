@@ -12,7 +12,8 @@ import com.example.homegit.model.api.response.UserResponse
 import com.example.homegit.util.setImageUrl
 
 class UserAdapter(
-        val context: Context,
+        val context: Context, //Variabel context dapat diubah menjadi private
+                                //jika hanya diakses di kelas ini
         val data: MutableList<UserResponse> = mutableListOf()
 ) : RecyclerView.Adapter<UserAdapter.UserHorizontalViewHolder>() {
 

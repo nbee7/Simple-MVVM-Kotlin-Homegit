@@ -45,6 +45,7 @@ fun ImageView.setImageUrl(context: Context, imageUrl: String, progressBar: Progr
             }).into(this)
 }
 
+//Method yang tidak digunakan sebaiknya dihilangkan
 fun ImageView.setImageUrl(c: Context, imageUrl: String, progressBar: ProgressBar, errorResourceId: Int) {
     if (!isValidContext(c)) return
 
